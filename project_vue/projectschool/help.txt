@@ -1,0 +1,5 @@
+Rodar a aplicação
+npm run serve
+
+Rodar o banco
+json-server --watch banco.json

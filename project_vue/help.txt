@@ -1,0 +1,18 @@
+# Rodar a aplicação em: project_vue/projectschool/
+npm run serve
+
+# Rodar o banco em: project_vue/api/
+json-server --watch banco.json
+
+# Instalação Dotnet Core em: project_vue/
+dotnet new webapi -n ProjectShool_API
+
+# Instalar o dotnet ef de modo global e sempre 1 versão abaixo do dotnet core em: project_vue/ProjectShool_API
+# Help: https://docs.microsoft.com/pt-br/ef/core/miscellaneous/cli/dotnet
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+# Rodar o dotnet api em: project_vue/ProjectShool_API
+dotnet watch run
+
+

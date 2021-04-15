@@ -1,0 +1,74 @@
+{
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Vinícius da Silva"
+    },
+    {
+      "id": 2,
+      "nome": "Lucas da Silva"
+    },
+    {
+      "id": 3,
+      "nome": "Fernando da Silva"
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Igor Maurício Becker Júnior",
+      "endereco": "Rua General Salvador Pinheiro, 725",
+      "dataNasc": "11/08/1988",
+      "professor": {
+        "id": 1,
+        "nome": "Vinícius da Silva"
+      }
+    },
+    {
+      "nome": "Sokie Stackhouse",
+      "endereco": "Bon Temps",
+      "professor": {
+        "id": 2,
+        "nome": "Lucas da Silva"
+      },
+      "id": 5
+    },
+    {
+      "nome": "Jason Stackhouse",
+      "endereco": "Bon Temps",
+      "professor": {
+        "id": 3,
+        "nome": "Fernando da Silva"
+      },
+      "id": 6
+    },
+    {
+      "nome": "Isadora Custódio",
+      "endereco": "Rua General salvador pinheiro, 725",
+      "professor": {
+        "id": 2,
+        "nome": "Lucas da Silva"
+      },
+      "id": 7
+    },
+    {
+      "nome": "Lucas Dapper",
+      "endereco": "Lomba do pinheiro, 123",
+      "professor": {
+        "id": 3,
+        "nome": "Fernando da Silva"
+      },
+      "id": 8
+    },
+    {
+      "id": 9,
+      "nome": "Igor Cordeiro",
+      "endereco": "Novo hamburgo",
+      "dataNasc": "01/01/1980",
+      "professor": {
+        "id": 1,
+        "nome": "Vinícius da Silva"
+      }
+    }
+  ]
+}
